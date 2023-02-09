@@ -7,6 +7,7 @@ namespace ProjetoFullStackPessoal.Back.Repository
 {
     public interface IUserRepository
     {
+        User Authenticate(string name, string password);
         Task<IEnumerable<User>> UserList();
         User ListUserById(int id);
         Task<User> CreateUser(User user);

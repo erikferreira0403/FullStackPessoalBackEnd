@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ProjetoFullStackPessoal.Back.Models;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,15 @@ namespace ProjetoFullStackPessoal.Back.Repository
         public UserRepository(DatabaseContext data)
         {
             _data = data;
+        }
+        public User Authenticate(string name, string password)
+        {
+            var user = _data.Users.SingleOrDefault(x => x.Name == name && x.Password == password);
+            //not found
+            if (user == null)
+                return null;
+            //success
+            return user;
         }
 
         public async Task<User> CreateUser(User user)

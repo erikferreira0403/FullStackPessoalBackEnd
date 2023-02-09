@@ -44,5 +44,15 @@ namespace ProjetoFullStackPessoal.Back.Controllers
             user.Id = id;
             return await _userRepository.UpdateUser(user);
         }
+        [HttpPost("/login")]
+        public ActionResult Login(User login)
+        {
+            var User = _userRepository.Authenticate(login.Name, login.Password);
+
+            if (User == null)
+                return BadRequest(new { message = "Esse usuário não aexiste" });
+
+            return Ok(User);
+        }
     }
 }
