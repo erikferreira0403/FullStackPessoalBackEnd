@@ -64,6 +64,7 @@ namespace ProjetoFullStackPessoal.Back.Repository
 
             userDB.Name = user.Name;
             userDB.Password = user.Password;
+            userDB.Role = user.Role;
 
             _data.Users.Update(userDB);
             _data.SaveChanges();
