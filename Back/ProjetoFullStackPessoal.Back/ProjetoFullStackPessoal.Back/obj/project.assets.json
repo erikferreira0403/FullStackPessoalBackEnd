@@ -307,43 +307,6 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/1.1.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "1.1.6",
-          "NETStandard.Library": "1.6.1",
-          "System.Data.SqlClient": "4.3.1",
-          "System.Threading.Thread": "4.3.0"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.6": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational.Design": "1.1.6",
-          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.6",
-          "NETStandard.Library": "1.6.1"
-        },
-        "compile": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore.Tools/5.0.17": {
         "type": "package",
         "dependencies": {
@@ -2298,20 +2261,6 @@
           }
         }
       },
-      "System.Threading.Thread/4.3.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime": "4.3.0"
-        },
-        "compile": {
-          "ref/netstandard1.3/System.Threading.Thread.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard1.3/System.Threading.Thread.dll": {}
-        }
-      },
       "System.Threading.Timer/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2773,36 +2722,6 @@
         "lib/netstandard1.3/Microsoft.EntityFrameworkCore.Sqlite.Design.xml",
         "microsoft.entityframeworkcore.sqlite.design.1.1.6.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.design.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.SqlServer/1.1.6": {
-      "sha512": "f/rWtionuUms65ejxe6wjUrCFWhH8OIJPbLPV9eFh+GhmOhC88rljYwKEJITbTAdXz4AGT3mqZz1nFN0sMLXUg==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/1.1.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net451/Microsoft.EntityFrameworkCore.SqlServer.dll",
-        "lib/net451/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.dll",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.1.1.6.nupkg.sha512",
-        "microsoft.entityframeworkcore.sqlserver.nuspec"
-      ]
-    },
-    "Microsoft.EntityFrameworkCore.SqlServer.Design/1.1.6": {
-      "sha512": "nxdW1YfZtn3nbcFqIAbjo6vCbCNOx0g82qMv+9fTUsNTsW0KSENYc2pbjF3yO8ZqYdBjmx2gMfAGk6wjy5cldg==",
-      "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver.design/1.1.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net451/Microsoft.EntityFrameworkCore.SqlServer.Design.dll",
-        "lib/net451/Microsoft.EntityFrameworkCore.SqlServer.Design.xml",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.dll",
-        "lib/netstandard1.3/Microsoft.EntityFrameworkCore.SqlServer.Design.xml",
-        "microsoft.entityframeworkcore.sqlserver.design.1.1.6.nupkg.sha512",
-        "microsoft.entityframeworkcore.sqlserver.design.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Tools/5.0.17": {
@@ -7056,46 +6975,6 @@
         "system.threading.tasks.extensions.nuspec"
       ]
     },
-    "System.Threading.Thread/4.3.0": {
-      "sha512": "OHmbT+Zz065NKII/ZHcH9XO1dEuLGI1L2k7uYss+9C1jLxTC9kTZZuzUOyXHayRk+dft9CiDf3I/QZ0t8JKyBQ==",
-      "type": "package",
-      "path": "system.threading.thread/4.3.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net46/System.Threading.Thread.dll",
-        "lib/netcore50/_._",
-        "lib/netstandard1.3/System.Threading.Thread.dll",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net46/System.Threading.Thread.dll",
-        "ref/netstandard1.3/System.Threading.Thread.dll",
-        "ref/netstandard1.3/System.Threading.Thread.xml",
-        "ref/netstandard1.3/de/System.Threading.Thread.xml",
-        "ref/netstandard1.3/es/System.Threading.Thread.xml",
-        "ref/netstandard1.3/fr/System.Threading.Thread.xml",
-        "ref/netstandard1.3/it/System.Threading.Thread.xml",
-        "ref/netstandard1.3/ja/System.Threading.Thread.xml",
-        "ref/netstandard1.3/ko/System.Threading.Thread.xml",
-        "ref/netstandard1.3/ru/System.Threading.Thread.xml",
-        "ref/netstandard1.3/zh-hans/System.Threading.Thread.xml",
-        "ref/netstandard1.3/zh-hant/System.Threading.Thread.xml",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.threading.thread.4.3.0.nupkg.sha512",
-        "system.threading.thread.nuspec"
-      ]
-    },
     "System.Threading.Timer/4.3.0": {
       "sha512": "Z6YfyYTCg7lOZjJzBjONJTFKGN9/NIYKSxhU5GRd+DTwHSZyvWp1xuI5aR+dLg+ayyC5Xv57KiY4oJ0tMO89fQ==",
       "type": "package",
@@ -7320,7 +7199,6 @@
       "Arch.EntityFrameworkCore.Design >= 2.1.15",
       "EntityFramework >= 6.4.4",
       "Microsoft.EntityFrameworkCore >= 5.0.17",
-      "Microsoft.EntityFrameworkCore.SqlServer.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Sqlite.Design >= 1.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.17",
@@ -7329,19 +7207,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\erik_ferreira\\.nuget\\packages\\": {}
+    "C:\\Users\\oggustavo7\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erik_ferreira\\Desktop\\ProjetoFullStackPessoal\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj",
+      "projectUniqueName": "C:\\Users\\oggustavo7\\OneDrive\\Área de Trabalho\\pessoal full stack\\FullStackPessoalBackEnd\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj",
       "projectName": "ProjetoFullStackPessoal.Back",
-      "projectPath": "C:\\Users\\erik_ferreira\\Desktop\\ProjetoFullStackPessoal\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj",
-      "packagesPath": "C:\\Users\\erik_ferreira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erik_ferreira\\Desktop\\ProjetoFullStackPessoal\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\obj\\",
+      "projectPath": "C:\\Users\\oggustavo7\\OneDrive\\Área de Trabalho\\pessoal full stack\\FullStackPessoalBackEnd\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj",
+      "packagesPath": "C:\\Users\\oggustavo7\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oggustavo7\\OneDrive\\Área de Trabalho\\pessoal full stack\\FullStackPessoalBackEnd\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\erik_ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\oggustavo7\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7378,10 +7256,6 @@
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.17, )"
-          },
-          "Microsoft.EntityFrameworkCore.SqlServer.Design": {
-            "target": "Package",
-            "version": "[1.1.6, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
@@ -7425,7 +7299,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

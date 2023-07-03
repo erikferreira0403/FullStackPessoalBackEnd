@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erik_ferreira\\Desktop\\ProjetoFullStackPessoal\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj": {}
+    "C:\\Users\\oggustavo7\\OneDrive\\Área de Trabalho\\pessoal full stack\\FullStackPessoalBackEnd\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erik_ferreira\\Desktop\\ProjetoFullStackPessoal\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj": {
+    "C:\\Users\\oggustavo7\\OneDrive\\Área de Trabalho\\pessoal full stack\\FullStackPessoalBackEnd\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erik_ferreira\\Desktop\\ProjetoFullStackPessoal\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj",
+        "projectUniqueName": "C:\\Users\\oggustavo7\\OneDrive\\Área de Trabalho\\pessoal full stack\\FullStackPessoalBackEnd\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj",
         "projectName": "ProjetoFullStackPessoal.Back",
-        "projectPath": "C:\\Users\\erik_ferreira\\Desktop\\ProjetoFullStackPessoal\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj",
-        "packagesPath": "C:\\Users\\erik_ferreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erik_ferreira\\Desktop\\ProjetoFullStackPessoal\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\obj\\",
+        "projectPath": "C:\\Users\\oggustavo7\\OneDrive\\Área de Trabalho\\pessoal full stack\\FullStackPessoalBackEnd\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj",
+        "packagesPath": "C:\\Users\\oggustavo7\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oggustavo7\\OneDrive\\Área de Trabalho\\pessoal full stack\\FullStackPessoalBackEnd\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\erik_ferreira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\oggustavo7\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,10 +51,6 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
-              "target": "Package",
-              "version": "[1.1.6, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -98,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
