@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MySqlConnector;
 using ProjetoFullStackPessoal.Back.Repository;
 using System;
 using System.Collections.Generic;
@@ -28,8 +29,11 @@ namespace ProjetoFullStackPessoal.Back
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DatabaseContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConn")));
-            services.AddScoped<IUserRepository, UserRepository>();
+            // services.AddDbContext<DatabaseContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConn")));
+             services.AddDbContext<DatabaseContext>(x => x.UseMySql("server=aws.connect.psdb.cloud;user=vlzdavs25w6zjo7uihr8;database=myfirstdatabse;port=3306;password=pscale_pw_Hb3fHaBSlPmMqbbYkm6UZ9ItmMB3sfXoHkCcaGo9z4U;SslMode=VerifyFull;",
+                 ServerVersion.Parse("8.0.33-mysql")));
+
+            services.AddTransient<IUserRepository, UserRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

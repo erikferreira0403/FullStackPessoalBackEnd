@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ProjetoFullStackPessoal.Back.props" />
+</Project>
