@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b1vem03+HsrDg8L7JVaBm8wLTjmDWyccuxm939Gsumg14Q+bD+N1qkEkNA4EzSmHbbyLK+Xmd1gxz8k4mxMSyA==",
+  "dgSpecHash": "Kg1LN2T8uPZNAvjet5Q2IsHHk7qnpyzklLWb5merYxBKa2mClRoA8YOT9fzf0/J3y9c5yII3CACi+4ImrPW9tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\oggustavo7\\OneDrive\\Área de Trabalho\\pessoal full stack\\FullStackPessoalBackEnd\\Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back\\ProjetoFullStackPessoal.Back.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\oggustavo7\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\oggustavo7\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "C:\\Users\\oggustavo7\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\oggustavo7\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512",
     "C:\\Users\\oggustavo7\\.nuget\\packages\\microsoft.win32.primitives\\4.0.1\\microsoft.win32.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\oggustavo7\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\oggustavo7\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
