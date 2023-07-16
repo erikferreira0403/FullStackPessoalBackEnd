@@ -30,7 +30,7 @@ namespace ProjetoFullStackPessoal.Back
         public void ConfigureServices(IServiceCollection services)
         {
             // services.AddDbContext<DatabaseContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConn")));
-             services.AddDbContext<DatabaseContext>(x => x.UseMySql("server=aws.connect.psdb.cloud;user=vlzdavs25w6zjo7uihr8;database=myfirstdatabse;port=3306;password=pscale_pw_Hb3fHaBSlPmMqbbYkm6UZ9ItmMB3sfXoHkCcaGo9z4U;SslMode=VerifyFull;",
+             services.AddDbContext<DatabaseContext>(x => x.UseMySql("server=aws.connect.psdb.cloud;user=md4zzps8oaombdamt5zx;database=myfirstdatabse;port=3306;password=pscale_pw_B3ru8BTz85Kc5EUfRTxFPL40YTZhAPZCFSjoxBnMGZM;SslMode=VerifyFull;",
                  ServerVersion.Parse("8.0.33-mysql")));
 
             services.AddTransient<IUserRepository, UserRepository>();
